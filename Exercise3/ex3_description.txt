@@ -1,0 +1,6 @@
+
+Para ejecutar el ejercicio, correr el comando “perl Exercise3.pm”.
+
+En el script se ejecuta un alineamiento múltiple utilizando “Clustalw”, para el cual se utiliza un array que contiene las secuencias que van a 
+participar en el alineamiento múltiple, la secuencia de consulta más las 10 más relevantes que surgieron de la ejecución del BLAST en el ejercicio 2. 
+
