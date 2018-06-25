@@ -1,0 +1,9 @@
+Input: 
+    -Archvio blast del ejercicio 2
+    -Patron
+
+Output: Lista de los hits que coincidan con el pattern en consola u genera un archivo por cada accession que matchee
+
+Para ejecutarlo: $ perl Exercise4.pm Exercise2_blast_2.bls Cytosolic
+
+

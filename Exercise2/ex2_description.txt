@@ -1,6 +1,5 @@
 Comandos para ejecutarlo:
 
-$ chmod 775 Exercise2.pm
-$ sudo ./Exercise2.pm {path a la base .psq} {el archivo fasta del ex1}
+$ perl Exercise2.pm {path a la base .psq} {el archivo fasta del ex1}
 
-p.e.: sudo ./Exercise2_fab.pm /home/bioinformatica/Escritorio/swissprot/swissprot.psq Exercise1.fasta 
+p.e.: sudo .Exercise2.pm /home/bioinformatica/Escritorio/swissprot/swissprot.psq Exercise1.fasta

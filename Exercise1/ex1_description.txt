@@ -1,7 +1,6 @@
 Archivo input de secuencias en formato genbank: sequence.gb 
-Archivo output de ORF: NM_xxx.fasta
+Archivo output de ORF: Exercise1.fasta
 
 
 Para ejecutarlo:
-1) $ chmod 775 Exercise1.pm
-2) $ sudo ./Exercise1.pm
+1) $ perl Exercise1.pm

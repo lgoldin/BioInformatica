@@ -4,31 +4,27 @@ use Bio::Seq;
 use Bio::Tools::Run::StandAloneBlastPlus;
 use Bio::SeqIO;
 
-# Leo del archivo que contiene todas las secuencias
-my $file = "Exercise1" . ".fasta";
-my $inseq = Bio::SeqIO->new(-file   => "$file",
+#parametros cmd
+$num_args = $#ARGV + 1;
+if ($num_args != 2) {
+    print "\nUsage: Exercise2.pm swissprot.psq Exercise1.fasta\n";
+    exit;
+}
+
+my $fastaFile = $ARGV[1];
+my $inputSeq = Bio::SeqIO->new(-file   => "$fastaFile",
                            -format => 'fasta' );
 
-# Creo el factory para blastp
-$fac = Bio::Tools::Run::StandAloneBlastPlus->new(
- -db_name => '/home/bioinformatica/Escritorio/swissprot/swissprot.psq' 
- );
+$factory = Bio::Tools::Run::StandAloneBlastPlus->new( -db_name => $ARGV[0] );
 
 $i=1;
-$salida="blast_";
+$outputName="Exercise2_blast_";
 
-while (my $seq = $inseq->next_seq) {
+while (my $seq = $inputSeq->next_seq) {
 
-# Defino archivo de salida por cada secuencia
-$out = "$salida" . "$i" . ".bls";
+    $outputFile = "$outputName" . "$i" . ".bls";
+    $factory->blastp( -query => $seq,  -outfile => "$outputFile" );
 
-# Crea y reescribe archivo que contiene la secuencia a analizar
-#$secuencia = $seq->seq;
-#$seq_fasta = Bio::SeqIO->new(-file => ">tmp_ej2a.fas",
-#                                -format => 'fasta');
-#$seq_fasta->write_seq($seq);
+    $i++;
 
-$fac->blastp( -query => $seq,  -outfile => "$out" );
-
-$i = $i + 1;
 }

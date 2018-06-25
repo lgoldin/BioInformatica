@@ -1,0 +1,417 @@
+LOCUS       NM_000163               4563 bp    mRNA    linear   PRI 01-MAY-2018
+DEFINITION  Homo sapiens growth hormone receptor (GHR), transcript variant 1,
+            mRNA.
+ACCESSION   NM_000163
+VERSION     NM_000163.4
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4563)
+  AUTHORS   Chatterjee S, Shapiro L, Rose SJ, Mushtaq T, Clayton PE, Ten SB,
+            Bhangoo A, Kumbattae U, Dias R, Savage MO, Metherell LA and Storr
+            HL.
+  TITLE     Phenotypic spectrum and responses to recombinant human IGF1
+            (rhIGF1) therapy in patients with homozygous intronic pseudoexon
+            growth hormone receptor mutation
+  JOURNAL   Eur. J. Endocrinol. 178 (5), 481-489 (2018)
+   PUBMED   29500309
+  REMARK    GeneRIF: Data suggest that subjects with 6Psi GHR point mutation
+            [intronic GHR pseudoexon mutation 6Psi, base change A(-1) to G(-1)
+            in intron 6] exhibit heterogeneity in phenotype and in response to
+            therapy with rhIGF1 (recombinant human insulin-like growth factor
+            I); there is mismatch between clinical and biochemical features in
+            patients with this GHR mutations; rhIGF1 treatment improves target
+            height outcomes in these patients.
+REFERENCE   2  (bases 1 to 4563)
+  AUTHORS   Porto WF, Marques FA, Pogue HB, de Oliveira Cardoso MT, do Vale
+            MGR, da Silva Pires A, Franco OL, de Alencar SA and Pogue R.
+  TITLE     Computational Investigation of Growth Hormone Receptor Trp169Arg
+            Heterozygous Mutation in a Child With Short Stature
+  JOURNAL   J. Cell. Biochem. 118 (12), 4762-4771 (2017)
+   PUBMED   28523647
+  REMARK    GeneRIF: The results suggest that both of the possible single
+            mutation-containing heteromeric GH-GHR complexes, as well as the
+            double GHR mutant complex result in perturbation of complex
+            structures, with altered ability of the GHR dimers to interact with
+            the GH peptide.
+REFERENCE   3  (bases 1 to 4563)
+  AUTHORS   Sawada T, Arai D, Jing X, Miyajima M, Frank SJ and Sakaguchi K.
+  TITLE     Molecular interactions of EphA4, growth hormone receptor, Janus
+            kinase 2, and signal transducer and activator of transcription 5B
+  JOURNAL   PLoS ONE 12 (7), e0180785 (2017)
+   PUBMED   28686668
+  REMARK    GeneRIF: Molecular interactions of EphA4, growth hormone receptor,
+            Jak2, and STAT5B have been described.
+            Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 4563)
+  AUTHORS   He H, Mi X, Zhang J, Zhang Q, Yao Y, Zhang X, Xiao F, Zhao C and
+            Zheng S.
+  TITLE     Correlation between facial morphology and gene polymorphisms in the
+            Uygur youth population
+  JOURNAL   Oncotarget 8 (17), 28750-28757 (2017)
+   PUBMED   28415752
+  REMARK    GeneRIF: these results show that GHR polymorphism is associated
+            with the length and width of the lip
+REFERENCE   5  (bases 1 to 4563)
+  AUTHORS   Topsakal S, Akin F, Turgut S, Yerlikaya E and Yaylali GF.
+  TITLE     Serum leptin levels and GHR-d3/fl gene polymorphism in acromegalic
+            patients with thyroid nodules
+  JOURNAL   Adv Clin Exp Med 26 (2), 281-286 (2017)
+   PUBMED   28791847
+  REMARK    GeneRIF: There was a strong relationship between growth hormone
+            receptor (GHR)-d3/fl gene polymorphism status and leptin levels in
+            acromegalic patients
+REFERENCE   6  (bases 1 to 4563)
+  AUTHORS   Pekhletsky RI, Chernov BK and Rubtsov PM.
+  TITLE     Variants of the 5'-untranslated sequence of human growth hormone
+            receptor mRNA
+  JOURNAL   Mol. Cell. Endocrinol. 90 (1), 103-109 (1992)
+   PUBMED   1301391
+REFERENCE   7  (bases 1 to 4563)
+  AUTHORS   Urbanek M, MacLeod JN, Cooke NE and Liebhaber SA.
+  TITLE     Expression of a human growth hormone (hGH) receptor isoform is
+            predicted by tissue-specific alternative splicing of exon 3 of the
+            hGH receptor gene transcript
+  JOURNAL   Mol. Endocrinol. 6 (2), 279-287 (1992)
+   PUBMED   1569971
+REFERENCE   8  (bases 1 to 4563)
+  AUTHORS   de Vos AM, Ultsch M and Kossiakoff AA.
+  TITLE     Human growth hormone and extracellular domain of its receptor:
+            crystal structure of the complex
+  JOURNAL   Science 255 (5042), 306-312 (1992)
+   PUBMED   1549776
+REFERENCE   9  (bases 1 to 4563)
+  AUTHORS   Berg MA, Guevara-Aguirre J, Rosenbloom AL, Rosenfeld RG and Francke
+            U.
+  TITLE     Mutation creating a new splice site in the growth hormone receptor
+            genes of 37 Ecuadorean patients with Laron syndrome
+  JOURNAL   Hum. Mutat. 1 (1), 24-32 (1992)
+   PUBMED   1284474
+REFERENCE   10 (bases 1 to 4563)
+  AUTHORS   Baumann G, Davila N, Shaw MA, Ray J, Liebhaber SA and Cooke NE.
+  TITLE     Binding of human growth hormone (GH)-variant (placental GH) to
+            GH-binding proteins in human plasma
+  JOURNAL   J. Clin. Endocrinol. Metab. 73 (6), 1175-1179 (1991)
+   PUBMED   1955498
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC116343.2, Z11801.1, X06562.1
+            and AC113368.3.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Jun 8, 2011 this sequence version replaced NM_000163.3.
+            
+            Summary: This gene encodes a member of the type I cytokine receptor
+            family, which is a transmembrane receptor for growth hormone.
+            Binding of growth hormone to the receptor leads to receptor
+            dimerization and the activation of an intra- and intercellular
+            signal transduction pathway leading to growth. Mutations in this
+            gene have been associated with Laron syndrome, also known as the
+            growth hormone insensitivity syndrome (GHIS), a disorder
+            characterized by short stature. In humans and rabbits, but not
+            rodents, growth hormone binding protein (GHBP) is generated by
+            proteolytic cleavage of the extracellular ligand-binding domain
+            from the mature growth hormone receptor protein. Multiple
+            alternatively spliced transcript variants have been found for this
+            gene.[provided by RefSeq, Jun 2011].
+            
+            Transcript Variant: This variant (1, also known as V2) and variants
+            3 through 9 encode the predominant protein (isoform 1).
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: X06562.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1968540, SAMEA1968968
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-145               AC116343.2         141136-141280
+            146-195             Z11801.1           96-145
+            196-2627            X06562.1           47-2478
+            2628-4563           AC113368.3         86651-88586
+FEATURES             Location/Qualifiers
+     source          1..4563
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="5"
+                     /map="5p13.1-p12"
+     gene            1..4563
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /note="growth hormone receptor"
+                     /db_xref="GeneID:2690"
+                     /db_xref="HGNC:HGNC:4263"
+                     /db_xref="MIM:600946"
+     exon            1..181
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    160..162
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /note="upstream in-frame stop codon"
+     exon            182..262
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             193..2109
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 1; growth hormone binding protein; somatotropin
+                     receptor; serum binding protein; GH receptor"
+                     /codon_start=1
+                     /product="growth hormone receptor isoform 1 precursor"
+                     /protein_id="NP_000154.1"
+                     /db_xref="CCDS:CCDS3940.1"
+                     /db_xref="GeneID:2690"
+                     /db_xref="HGNC:HGNC:4263"
+                     /db_xref="MIM:600946"
+                     /translation="MDLWQLLLTLALAGSSDAFSGSEATAAILSRAPWSLQSVNPGLK
+                     TNSSKEPKFTKCRSPERETFSCHWTDEVHHGTKNLGPIQLFYTRRNTQEWTQEWKECP
+                     DYVSAGENSCYFNSSFTSIWIPYCIKLTSNGGTVDEKCFSVDEIVQPDPPIALNWTLL
+                     NVSLTGIHADIQVRWEAPRNADIQKGWMVLEYELQYKEVNETKWKMMDPILTTSVPVY
+                     SLKVDKEYEVRVRSKQRNSGNYGEFSEVLYVTLPQMSQFTCEEDFYFPWLLIIIFGIF
+                     GLTVMLFVFLFSKQQRIKMLILPPVPVPKIKGIDPDLLKEGKLEEVNTILAIHDSYKP
+                     EFHSDDSWVEFIELDIDEPDEKTEESDTDRLLSSDHEKSHSNLGVKDGDSGRTSCCEP
+                     DILETDFNANDIHEGTSEVAQPQRLKGEADLLCLDQKNQNNSPYHDACPATQQPSVIQ
+                     AEKNKPQPLPTEGAESTHQAAHIQLSNPSSLSNIDFYAQVSDITPAGSVVLSPGQKNK
+                     AGMSQCDMHPEMVSLCQENFLMDNAYFCEADAKKCIPVAPHIKVESHIQPSLNQEDIY
+                     ITTESLTTAAGRPGTGEHVPGSEMPVPDYTSIHIVQSPQGLILNATALPLPDKEFLSS
+                     CGYVSTDQLNKIMP"
+     sig_peptide     193..246
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     247..2106
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /product="Growth hormone receptor"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1)"
+     mat_peptide     247..960
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /product="Growth hormone-binding protein. {ECO:0000250}"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1)"
+     misc_feature    910..924
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1);
+                     Region: WSXWS motif"
+     misc_feature    970..978
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1);
+                     Region: Required for ADAM17-mediated proteolysis.
+                     {ECO:0000250}"
+     misc_feature    985..1056
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1);
+                     transmembrane region"
+     misc_feature    1081..1107
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1);
+                     Region: Box 1 motif"
+     misc_feature    1210..1239
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P10912.1);
+                     Region: UbE motif"
+     misc_feature    1213..1215
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (P10912.1);
+                     phosphorylation site"
+     misc_feature    1225..1227
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Required for endocytosis and down-regulation.
+                     {ECO:0000250}; propagated from UniProtKB/Swiss-Prot
+                     (P10912.1); other site"
+     exon            263..328
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            329..458
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            459..631
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            632..810
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            811..976
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            977..1067
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1068..1137
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1138..4563
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /inference="alignment:Splign:2.1.0"
+     STS             2116..2218
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="human.GHR"
+                     /db_xref="UniSTS:181771"
+     STS             2117..2223
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="RH75947"
+                     /db_xref="UniSTS:92696"
+     STS             2709..2833
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="RH103550"
+                     /db_xref="UniSTS:97875"
+     STS             3561..3947
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="G15875"
+                     /db_xref="UniSTS:61954"
+     STS             3623..3768
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="D18S21"
+                     /db_xref="UniSTS:148514"
+     STS             4208..4334
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="D5S1587E"
+                     /db_xref="UniSTS:41733"
+     STS             4349..4530
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+                     /standard_name="STS-X06562"
+                     /db_xref="UniSTS:49544"
+     regulatory      4490..4495
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+     polyA_site      4509
+                     /gene="GHR"
+                     /gene_synonym="GHBP; GHIP"
+ORIGIN      
+        1 cggcggcggc ggcggcagcg gcagcagcag ctgctacagt ggcggtggcg gcggcggctg
+       61 ctgctgagcc cgggcggcgg cggggacccc gggctggggc cacgcgggcc ggaggccccg
+      121 gcaccattgg ccccagcgca gacgcgaacc cgcgctctct gatcagaggc gaagctcgga
+      181 ggtcctacag gtatggatct ctggcagctg ctgttgacct tggcactggc aggatcaagt
+      241 gatgcttttt ctggaagtga ggccacagca gctatcctta gcagagcacc ctggagtctg
+      301 caaagtgtta atccaggcct aaagacaaat tcttctaagg agcctaaatt caccaagtgc
+      361 cgttcacctg agcgagagac tttttcatgc cactggacag atgaggttca tcatggtaca
+      421 aagaacctag gacccataca gctgttctat accagaagga acactcaaga atggactcaa
+      481 gaatggaaag aatgccctga ttatgtttct gctggggaaa acagctgtta ctttaattca
+      541 tcgtttacct ccatctggat accttattgt atcaagctaa ctagcaatgg tggtacagtg
+      601 gatgaaaagt gtttctctgt tgatgaaata gtgcaaccag atccacccat tgccctcaac
+      661 tggactttac tgaacgtcag tttaactggg attcatgcag atatccaagt gagatgggaa
+      721 gcaccacgca atgcagatat tcagaaagga tggatggttc tggagtatga acttcaatac
+      781 aaagaagtaa atgaaactaa atggaaaatg atggacccta tattgacaac atcagttcca
+      841 gtgtactcat tgaaagtgga taaggaatat gaagtgcgtg tgagatccaa acaacgaaac
+      901 tctggaaatt atggcgagtt cagtgaggtg ctctatgtaa cacttcctca gatgagccaa
+      961 tttacatgtg aagaagattt ctactttcca tggctcttaa ttattatctt tggaatattt
+     1021 gggctaacag tgatgctatt tgtattctta ttttctaaac agcaaaggat taaaatgctg
+     1081 attctgcccc cagttccagt tccaaagatt aaaggaatcg atccagatct cctcaaggaa
+     1141 ggaaaattag aggaggtgaa cacaatctta gccattcatg atagctataa acccgaattc
+     1201 cacagtgatg actcttgggt tgaatttatt gagctagata ttgatgagcc agatgaaaag
+     1261 actgaggaat cagacacaga cagacttcta agcagtgacc atgagaaatc acatagtaac
+     1321 ctaggggtga aggatggcga ctctggacgt accagctgtt gtgaacctga cattctggag
+     1381 actgatttca atgccaatga catacatgag ggtacctcag aggttgctca gccacagagg
+     1441 ttaaaagggg aagcagatct cttatgcctt gaccagaaga atcaaaataa ctcaccttat
+     1501 catgatgctt gccctgctac tcagcagccc agtgttatcc aagcagagaa aaacaaacca
+     1561 caaccacttc ctactgaagg agctgagtca actcaccaag ctgcccatat tcagctaagc
+     1621 aatccaagtt cactgtcaaa catcgacttt tatgcccagg tgagcgacat tacaccagca
+     1681 ggtagtgtgg tcctttcccc gggccaaaag aataaggcag ggatgtccca atgtgacatg
+     1741 cacccggaaa tggtctcact ctgccaagaa aacttcctta tggacaatgc ctacttctgt
+     1801 gaggcagatg ccaaaaagtg catccctgtg gctcctcaca tcaaggttga atcacacata
+     1861 cagccaagct taaaccaaga ggacatttac atcaccacag aaagccttac cactgctgct
+     1921 gggaggcctg ggacaggaga acatgttcca ggttctgaga tgcctgtccc agactatacc
+     1981 tccattcata tagtacagtc cccacagggc ctcatactca atgcgactgc cttgcccttg
+     2041 cctgacaaag agtttctctc atcatgtggc tatgtgagca cagaccaact gaacaaaatc
+     2101 atgccttagc ctttctttgg tttcccaaga gctacgtatt taatagcaaa gaattgactg
+     2161 gggcaataac gtttaagcca aaacaatgtt taaacctttt ttgggggagt gacaggatgg
+     2221 ggtatggatt ctaaaatgcc ttttcccaaa atgttgaaat atgatgttaa aaaaataaga
+     2281 agaatgctta atcagataga tattcctatt gtgcaatgta aatattttaa agaattgtgt
+     2341 cagactgttt agtagcagtg attgtcttaa tattgtgggt gttaattttt gatactaagc
+     2401 attgaatggc tatgttttta atgtatagta aatcacgctt tttgaaaaag cgaaaaaatc
+     2461 aggtggcttt tgcggttcag gaaaattgaa tgcaaaccat agcacaggct aattttttgt
+     2521 tgtttcttaa ataagaaact tttttattta aaaaactaaa aactagaggt gagaaattta
+     2581 aactataagc aagaaggcaa aaatagtttg gatatgtaaa acatttattt tgacataaag
+     2641 ttgataaaga ttttttaata atttagactt caagcatggc tattttatat tacactacac
+     2701 actgtgtact gcagttggta tgacccctct aaggagtgta gcaactacag tctaaagctg
+     2761 gtttaatgtt ttggccaatg cacctaaaga aaaacaaact cgttttttac aaagcccttt
+     2821 tatacctccc cagactcctt caacaattct aaaatgattg tagtaatctg cattattgga
+     2881 atataattgt tttatctgaa tttttaaaca agtatttgtt aatttagaaa actttaaagc
+     2941 gtttgcacag atcaacttac caggcaccaa aagaagtaaa agcaaaaaag aaaacctttc
+     3001 ttcaccaaat cttggttgat gccaaaaaaa aatacatgct aagagaagta gaaatcatag
+     3061 ctggttcaca ctgaccaaga tacttaagtg ctgcaattgc acgcggagtg agttttttag
+     3121 tgcgtgcaga tggtgagaga taagatctat agcctctgca gcggaatctg ttcacaccca
+     3181 acttggtttt gctacataat tatccaggaa gggaataagg tacaagaagc attttgtaag
+     3241 ttgaagcaaa tcgaatgaaa ttaactgggt aatgaaacaa agagttcaag aaataagttt
+     3301 ttgtttcaca gcctataacc agacacatac tcatttttca tgataatgaa cagaacatag
+     3361 acagaagaaa caaggttttc agtccccaca gataactgaa aattatttaa accgctaaaa
+     3421 gaaactttct ttctcactaa atcttttata ggatttattt aaaatagcaa aagaagaagt
+     3481 ttcatcattt tttacttcct ctctgagtgg actggcctca aagcaagcat tcagaagaaa
+     3541 aagaagcaac ctcagtaatt tagaaatcat tttgcaatcc cttaatatcc taaacatcat
+     3601 tcatttttgt tgttgttgtt gttgttgaga cagagtctcg ctctgtcgcc aggctagagt
+     3661 gcggtggcgc gatcttgact cactgcaatc tccacctccc acaggttcag gcgattcccg
+     3721 tgcctcagcc tcctgagtag ctgggactac aggcacgcac caccatgcca ggctaatttt
+     3781 tttgtatttt agcagagacg gggtttcacc atgttggcca ggatggtctc gatctcctga
+     3841 cctcgtgatc cacccgactc ggcctcccaa agtgctggga ttacaggtgt aagccaccgt
+     3901 gcccagccct aaacatcatt cttgagagca ttgggatatc tcctgaaaag gtttatgaaa
+     3961 aagaagaatc tcatctcagt gaagaatact tctcattttt taaaaaagct taaaactttg
+     4021 aagttagctt taacttaaat agtatttccc atttatcgca gacctttttt aggaagcaag
+     4081 cttaatggct gataatttta aattctctct cttgcaggaa ggactatgaa aagctagaat
+     4141 tgagtgttta aagttcaaca tgttatttgt aatagatgtt tgatagattt tctgctactt
+     4201 tgctgctatg gttttctcca agagctacat aatttagttt catataaagt atcatcagtg
+     4261 tagaacctaa ttcaattcaa agctgtgtgt ttggaagact atcttactat ttcacaacag
+     4321 cctgacaaca tttctatagc caaaaatagc taaatacctc aatcagtctc agaatgtcat
+     4381 tttggtactt tggtggccac ataagccatt attcactagt atgactagtt gtgtctggca
+     4441 gtttatattt aactctcttt atgtctgtgg attttttcct tcaaagttta ataaatttat
+     4501 tttcttggat tcctgatagt gtgcttctgt tatcaaacac caacataaaa atgatctaaa
+     4561 cca
+//
+

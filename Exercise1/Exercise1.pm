@@ -20,7 +20,7 @@ my $fastaSeq = Bio::Seq->new(
     -seq => '',
     -display_id => '',
     -desc => '',
-    -alphabet => 'rna'
+    -alphabet => 'dna'
 );
 
 my $fastaFile = Bio::SeqIO->new(

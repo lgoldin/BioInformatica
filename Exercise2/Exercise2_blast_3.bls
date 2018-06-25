@@ -1,0 +1,240 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: data
+           469,598 sequences; 177,019,104 total letters
+
+
+
+Query= NM_000163 Homo sapiens growth hormone receptor (GHR), transcript
+variant 1, mRNA.
+
+Length=1520
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Q8WTZ3.1 RecName: Full=Zinc finger protein ENSP00000375192          58.9    5e-08
+  Q96T75.2 RecName: Full=Down syndrome critical region protein 8;...  46.2    9e-05
+  Q6ZSR6.3 RecName: Full=Putative uncharacterized protein FLJ45256    48.5    1e-04
+  Q96MD7.1 RecName: Full=Uncharacterized protein C9orf85              46.2    4e-04
+  Q8N2A0.1 RecName: Full=Putative uncharacterized protein encoded...  42.0    0.009
+  Q8N7I0.1 RecName: Full=Protein GVQW1; AltName: Full=GVQW motif-...  40.0    0.069
+  Q8N976.1 RecName: Full=Putative uncharacterized protein FLJ38264    38.5    0.093
+  Q6B4Z3.1 RecName: Full=Histone demethylase UTY; AltName: Full=U...  40.0    0.18 
+  Q5H9K5.1 RecName: Full=Zinc finger matrin-type protein 1            39.7    0.24 
+  Q09FC8.2 RecName: Full=Zinc finger protein 415                      38.5    0.54 
+  A8EW87.1 RecName: Full=30S ribosomal protein S7                     33.9    5.2  
+  A0A096LPI5.1 RecName: Full=Protein GVQW2; AltName: Full=GVQW mo...  32.7    6.3  
+  Q9HC38.1 RecName: Full=Glyoxalase domain-containing protein 4       33.9    9.7  
+
+
+> Q8WTZ3.1 RecName: Full=Zinc finger protein ENSP00000375192
+Length=238
+
+ Score = 58.9 bits (141),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 39/118 (33%), Positives = 52/118 (44%), Gaps = 15/118 (13%)
+
+Query  1217  RLECGGAILTHCNLHLPQVQAIPVPQPPE*LGLQARTTMPG*FFCILAETGFHHVGQDGL  1276
+             +LEC GAI  HCNL L    +  +    +  G+          F  L ETGFHH  Q G 
+Sbjct  105   KLECNGAISVHCNLRLLG-SSDSLASTSQAAGIAGACHHAQLIFVFLVETGFHHFDQAGF  163
+
+Query  1277  DLLTS*S----TRLGLPKCWDYRCKPPCPALNIILESIGISPEKVYEKEESHLSEEYF  1330
+             +LLTS           PKCWDY+ +P  P          +   KV+ K  +H  E+ +
+Sbjct  164   ELLTSSDPPALASQSAPKCWDYKHEPLSP----------VECGKVFNKLSNHTGEKLY  211
+
+
+> Q96T75.2 RecName: Full=Down syndrome critical region protein 
+8; AltName: Full=Cancer/testis antigen 25; Short=CT25; AltName: 
+Full=DCR1-24.0; AltName: Full=Malignant melanoma-associated 
+protein 1; Short=MMA-1; AltName: Full=Protein MTAG2
+Length=97
+
+ Score = 46.2 bits (108),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 26/35 (74%), Gaps = 1/35 (3%)
+
+Query  1217  RLECGGAILTHCNLHLPQVQAIPVPQPPE*LGLQA  1251
+             RLEC G+I  HC+LHLP VQ I + QPPE LGLQ 
+Sbjct  33    RLECSGSITDHCSLHLP-VQEILMSQPPEQLGLQT  66
+
+
+> Q6ZSR6.3 RecName: Full=Putative uncharacterized protein FLJ45256
+Length=202
+
+ Score = 48.5 bits (114),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 24/40 (60%), Positives = 28/40 (70%), Gaps = 2/40 (5%)
+
+Query  1262  ILAETGFHHVGQDGLDLLTS*STRLGL--PKCWDYRCKPP  1299
+             +L ETGF  VGQ GL+LL+S     GL  PKCWDYR +PP
+Sbjct  1     MLVETGFCRVGQAGLELLSSSDKAAGLDLPKCWDYRHEPP  40
+
+
+> Q96MD7.1 RecName: Full=Uncharacterized protein C9orf85
+Length=179
+
+ Score = 46.2 bits (108),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 31/65 (48%), Gaps = 1/65 (2%)
+
+Query  1217  RLECGGAILTHCNLHLPQVQAIPVPQPPE*LGLQARTTMPG*FFCILAETGFHHVGQDGL  1276
+             RLEC G IL H NL LP     P        G           F  L E GFH+VGQ GL
+Sbjct  116   RLECSGRILAHHNLRLPCSSDSPA-SASRVAGTTGAHHHAQLIFVFLVEMGFHYVGQAGL  174
+
+Query  1277  DLLTS  1281
+             +LLTS
+Sbjct  175   ELLTS  179
+
+
+> Q8N2A0.1 RecName: Full=Putative uncharacterized protein encoded 
+by LINC00269
+Length=174
+
+ Score = 42.0 bits (97),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 32/67 (48%), Gaps = 5/67 (7%)
+
+Query  1217  RLECGGAILTHCNLHLPQVQAIPVP--QPPE*LGLQARTTMPG*FFCILAETGFHHVGQD  1274
+             RLEC G I  H NL L      PV   Q  E       T +    F    ETGFHHVGQ 
+Sbjct  80    RLECSGTISAHYNLRLLGSSNSPVSASQVAETTEACHHTRL---IFVFSVETGFHHVGQA  136
+
+Query  1275  GLDLLTS  1281
+             GL LLTS
+Sbjct  137   GLKLLTS  143
+
+
+> Q8N7I0.1 RecName: Full=Protein GVQW1; AltName: Full=GVQW motif-containing 
+protein 1; AltName: Full=Tigger transposable element-derived 
+1-like protein 2; Flags: Precursor
+Length=195
+
+ Score = 40.0 bits (92),  Expect = 0.069, Method: Compositional matrix adjust.
+ Identities = 17/22 (77%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  1260  FCILAETGFHHVGQDGLDLLTS  1281
+             FCIL E GFHHVGQ  L+LLTS
+Sbjct  144   FCILVEMGFHHVGQADLELLTS  165
+
+
+> Q8N976.1 RecName: Full=Putative uncharacterized protein FLJ38264
+Length=141
+
+ Score = 38.5 bits (88),  Expect = 0.093, Method: Composition-based stats.
+ Identities = 27/61 (44%), Positives = 29/61 (48%), Gaps = 6/61 (10%)
+
+Query  1224  ILTHC-NLHLPQVQAIPV--PQPPE*LGLQARTTMPG*FFCILAETGFHHVGQDGLDLLT  1280
+             I  HC NLH       P    Q  E  G    T +    F  L ETGFHHVG  GL+LLT
+Sbjct  2     ISAHCSNLHFLGSSESPTLASQVGEITGTHHHTRL---IFVFLVETGFHHVGHAGLELLT  58
+
+Query  1281  S  1281
+             S
+Sbjct  59    S  59
+
+
+> Q6B4Z3.1 RecName: Full=Histone demethylase UTY; AltName: Full=Ubiquitously 
+transcribed TPR protein on the Y chromosome; AltName: 
+Full=Ubiquitously transcribed Y chromosome tetratricopeptide 
+repeat protein
+Length=1079
+
+ Score = 40.0 bits (92),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 17/22 (77%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  1260  FCILAETGFHHVGQDGLDLLTS  1281
+             FCI  ETGFHHVGQ  L+LLTS
+Sbjct  1037  FCIFVETGFHHVGQAHLELLTS  1058
+
+
+> Q5H9K5.1 RecName: Full=Zinc finger matrin-type protein 1
+Length=638
+
+ Score = 39.7 bits (91),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 18/30 (60%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  1211  ESRSVARLECGGAILTHCNLHLPQVQAIPV  1240
+             ES SV RLEC GAI  HC+LHLP     P 
+Sbjct  2     ESCSVTRLECSGAISAHCSLHLPGSSDSPA  31
+
+
+> Q09FC8.2 RecName: Full=Zinc finger protein 415
+Length=603
+
+ Score = 38.5 bits (88),  Expect = 0.54, Method: Compositional matrix adjust.
+ Identities = 17/33 (52%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  1208  VETESRSVARLECGGAILTHCNLHLPQVQAIPV  1240
+             VE + R   RLEC GAI  HCNL LP     P 
+Sbjct  52    VEIDQRCENRLECNGAISAHCNLRLPDSNDSPA  84
+
+
+> A8EW87.1 RecName: Full=30S ribosomal protein S7
+Length=155
+
+ Score = 33.9 bits (76),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 25/70 (36%), Positives = 37/70 (53%), Gaps = 6/70 (9%)
+
+Query  979   KRLHRSTYQAPKEVKA-KKKTFLHQILVDAKKKYMLRE-VEIIAGSH*PRYLSAAIARGV  1036
+             +R+  +TYQ P EV+A +++T   + L+DA +K   R  VE +A         AA  RG 
+Sbjct  77    RRVGGATYQVPVEVRAVRRQTLALRWLIDASRKRNERTMVERLAN----ELFEAANERGA  132
+
+Query  1037  SFLVRADGER  1046
+             SF  + D  R
+Sbjct  133   SFKKKEDVHR  142
+
+
+> A0A096LPI5.1 RecName: Full=Protein GVQW2; AltName: Full=GVQW 
+motif-containing protein 2
+Length=108
+
+ Score = 32.7 bits (73),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 14/24 (58%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  1217  RLECGGAILTHCNLHLPQVQAIPV  1240
+             RLEC GAI  HCNL LP +   P 
+Sbjct  61    RLECSGAISAHCNLCLPDLSDSPA  84
+
+
+> Q9HC38.1 RecName: Full=Glyoxalase domain-containing protein 4
+Length=313
+
+ Score = 33.9 bits (76),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 16/32 (50%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  1198  TSFIFVVVVVVETESRSVARLECGGAILTHCN  1229
+             T+  +  V+ ++ ES SVARLEC GAI  HC+
+Sbjct  19    TARFYRDVLGMKVESCSVARLECSGAISAHCS  50
+
+
+
+Lambda      K        H        a         alpha
+   0.359    0.159    0.582    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 161200195960
+
+
+  Database: data
+    Posted date:  May 27, 2018  8:03 PM
+  Number of letters in database: 177,019,104
+  Number of sequences in database:  469,598
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

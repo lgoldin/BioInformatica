@@ -1,0 +1,194 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: data
+           469,598 sequences; 177,019,104 total letters
+
+
+
+Query= NM_000163 Homo sapiens growth hormone receptor (GHR), transcript
+variant 1, mRNA.
+
+Length=1520
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Q96MD7.1 RecName: Full=Uncharacterized protein C9orf85              44.7    0.001
+  Q5JPI9.2 RecName: Full=EEF1A lysine methyltransferase 2; AltNam...  40.8    0.062
+  Q86U02.1 RecName: Full=Putative uncharacterized protein encoded...  38.1    0.085
+  Q8N976.1 RecName: Full=Putative uncharacterized protein FLJ38264    36.6    0.51 
+  Q8NEM8.2 RecName: Full=Cytosolic carboxypeptidase 3; AltName: F...  37.7    0.82 
+  Q8WTZ3.1 RecName: Full=Zinc finger protein ENSP00000375192          36.2    1.5  
+  Q5U5Z8.2 RecName: Full=Cytosolic carboxypeptidase 2; AltName: F...  37.0    1.5  
+  O49845.1 RecName: Full=Sucrose synthase isoform 2; AltName: Ful...  35.8    3.7  
+  A0A096LPI5.1 RecName: Full=Protein GVQW2; AltName: Full=GVQW mo...  32.7    5.8  
+  O94966.2 RecName: Full=Ubiquitin carboxyl-terminal hydrolase 19...  34.7    7.3  
+
+
+> Q96MD7.1 RecName: Full=Uncharacterized protein C9orf85
+Length=179
+
+ Score = 44.7 bits (104),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  1236  SGDSRASAS*VAGTTGTHHHARLIFLYFSRDG  1267
+             S DS ASAS VAGTTG HHHA+LIF++    G
+Sbjct  134   SSDSPASASRVAGTTGAHHHAQLIFVFLVEMG  165
+
+
+> Q5JPI9.2 RecName: Full=EEF1A lysine methyltransferase 2; AltName: 
+Full=Methyltransferase-like protein 10; AltName: Full=Protein-lysine 
+N-methyltransferase METTL10
+Length=291
+
+ Score = 40.8 bits (94),  Expect = 0.062, Method: Compositional matrix adjust.
+ Identities = 24/53 (45%), Positives = 28/53 (53%), Gaps = 0/53 (0%)
+
+Query  1242  SAS*VAGTTGTHHHARLIFLYFSRDGVSPCWPGWSRSPDLVIHPTRPPKVLGL  1294
+             SAS V GTTGTHHHA +IF++ +                    PT PPKVLGL
+Sbjct  230   SASRVGGTTGTHHHAWIIFVFLAETRFCHVVQAGLELLGSSDSPTWPPKVLGL  282
+
+
+> Q86U02.1 RecName: Full=Putative uncharacterized protein encoded 
+by LINC00596
+Length=117
+
+ Score = 38.1 bits (87),  Expect = 0.085, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  1217  QARVRWRDLDSLQSPPPTGSGDSRASAS*VAGTTGTHHHARLI--FLYFSRDGVSPCWPG  1274
+             Q  V W +L SLQ  PP   G  R S   +  +    H    +  F  FS D VSPCWP 
+Sbjct  59    QTGVHWCNLGSLQPLPP---GFKRFSCLSLPSSLDYRHAPPCLANFYIFSGDRVSPCWPD  115
+
+Query  1275  WS  1276
+             WS
+Sbjct  116   WS  117
+
+
+> Q8N976.1 RecName: Full=Putative uncharacterized protein FLJ38264
+Length=141
+
+ Score = 36.6 bits (83),  Expect = 0.51, Method: Composition-based stats.
+ Identities = 17/33 (52%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  1235  GSGDSRASAS*VAGTTGTHHHARLIFLYFSRDG  1267
+             GS +S   AS V   TGTHHH RLIF++    G
+Sbjct  13    GSSESPTLASQVGEITGTHHHTRLIFVFLVETG  45
+
+
+> Q8NEM8.2 RecName: Full=Cytosolic carboxypeptidase 3; AltName: 
+Full=ATP/GTP-binding protein-like 3
+Length=1001
+
+ Score = 37.7 bits (86),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 20/33 (61%), Positives = 22/33 (67%), Gaps = 0/33 (0%)
+
+Query  1235  GSGDSRASAS*VAGTTGTHHHARLIFLYFSRDG  1267
+             GS  S ASAS VAGTTGT HH  LIF++    G
+Sbjct  712   GSRHSPASASRVAGTTGTRHHTWLIFVFLVEMG  744
+
+
+> Q8WTZ3.1 RecName: Full=Zinc finger protein ENSP00000375192
+Length=238
+
+ Score = 36.2 bits (82),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 17/33 (52%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  1235  GSGDSRASAS*VAGTTGTHHHARLIFLYFSRDG  1267
+             GS DS AS S  AG  G  HHA+LIF++    G
+Sbjct  122   GSSDSLASTSQAAGIAGACHHAQLIFVFLVETG  154
+
+
+> Q5U5Z8.2 RecName: Full=Cytosolic carboxypeptidase 2; AltName: 
+Full=ATP/GTP-binding protein-like 2
+Length=902
+
+ Score = 37.0 bits (84),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 25/56 (45%), Positives = 29/56 (52%), Gaps = 6/56 (11%)
+
+Query  1220  VRWRDLDSLQSPPPTGSGDSRASAS*VAGTTGTH-----HHARLIFLYFSRDGVSP  1270
+             ++WR L SLQ PPP    DS ASA  VAG T +H     H      LY   D V+P
+Sbjct  104   MQWRGLSSLQPPPPRFK-DSPASAFRVAGITDSHMLSLPHLRSRQLLYDELDEVNP  158
+
+
+> O49845.1 RecName: Full=Sucrose synthase isoform 2; AltName: Full=Sucrose 
+synthase isoform II; AltName: Full=Sucrose-UDP glucosyltransferase 
+2; AltName: Full=Susy*Dc2
+Length=801
+
+ Score = 35.8 bits (81),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
+
+Query  91   LSLAEHPGVCKVLIQA*RQILLRSLNSPSAVHLSERLFHATGQMRFIMVQRT*DPYSCSI  150
+            L++   PGV + +     Q+++  L  P  ++L E L +A+    F++ +    P++ SI
+Sbjct  82   LAIRLRPGVWEYVRLNVHQLVVEELTVPDYLYLKEELVNASSNGNFVL-ELDFAPFTASI  140
+
+Query  151  PEGTLKNGLKNG  162
+            P  TL   + NG
+Sbjct  141  PRPTLTKSIGNG  152
+
+
+> A0A096LPI5.1 RecName: Full=Protein GVQW2; AltName: Full=GVQW 
+motif-containing protein 2
+Length=108
+
+ Score = 32.7 bits (73),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 15/20 (75%), Positives = 16/20 (80%), Gaps = 0/20 (0%)
+
+Query  1238  DSRASAS*VAGTTGTHHHAR  1257
+             DS AS S VAGTTG HHHA+
+Sbjct  81    DSPASTSRVAGTTGAHHHAQ  100
+
+
+> O94966.2 RecName: Full=Ubiquitin carboxyl-terminal hydrolase 
+19; AltName: Full=Deubiquitinating enzyme 19; AltName: Full=Ubiquitin 
+thioesterase 19; AltName: Full=Ubiquitin-specific-processing 
+protease 19; AltName: Full=Zinc finger MYND domain-containing 
+protein 9
+Length=1318
+
+ Score = 34.7 bits (78),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 18/38 (47%), Positives = 20/38 (53%), Gaps = 0/38 (0%)
+
+Query  1233  PTGSGDSRASAS*VAGTTGTHHHARLIFLYFSRDGVSP  1270
+             P  SGD  ASAS  AG TG+ H  RL F   S    +P
+Sbjct  55    PLASGDPSASASHAAGITGSRHRTRLFFPSSSGSASTP  92
+
+
+
+Lambda      K        H        a         alpha
+   0.356    0.155    0.561    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 161200195960
+
+
+  Database: data
+    Posted date:  May 27, 2018  8:03 PM
+  Number of letters in database: 177,019,104
+  Number of sequences in database:  469,598
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
