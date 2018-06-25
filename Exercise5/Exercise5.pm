@@ -15,6 +15,7 @@ my $seq;
 my $seq_obj=$ARGV[0];
 my $outfileorf = "Exercise5_orfs.fasta";
 my $outfilepat = "Exercise5_patmatmotifs.fasta";
+my $seqEntrada = "./sequence.gb";
 
 $factory = new Bio::Factory::EMBOSS; 
 
@@ -24,6 +25,10 @@ $seqorfapp = $factory->program('getorf');
 %inputorf = ( -sequence => $seq_obj,  -table => 1, -outseq => $outfileorf );
 
 $seqorfapp->run(\%inputorf); #ejecutar cmd
+
+#Ejecucion de programa prosextract para poder ejecutar el patmatmotifs
+system("sudo prosextract ./");
+print "\n";
 
 #PATMATMOTIFS
 $seqpatapp = $factory->program("patmatmotifs");

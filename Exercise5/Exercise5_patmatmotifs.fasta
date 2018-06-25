@@ -1,0 +1,102 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Mon 25 Jun 2018 18:36:11
+# Commandline: patmatmotifs
+#    -sequence test.fasta
+#    -outfile Exercise5_patmatmotifs.fasta
+#    -full
+#    -auto
+# Report_format: dbmotif
+# Report_file: Exercise5_patmatmotifs.fasta
+########################################
+
+#=======================================
+#
+# Sequence: ORF1     from: 1   to: 638
+# HitCount: 1
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 79
+Start = position 171 of sequence
+End = position 249 of sequence
+
+Motif = HEMATOPO_REC_L_F1
+
+GIHADIQVRWEAPRNADIQKGWMVLEYELQYKEVNETKWKMMDPILTTSVPVYSLKVDKEYEVRVRSKQRNSGNYGEFSEVLYVTLPQM
+     |                                                                             |
+   171                                                                             249
+
+
+#---------------------------------------
+#
+# Motif: HEMATOPO_REC_L_F1
+# Count: 1
+# 
+# **************************************************************
+# * Long hematopoietin receptor, single chain family signature *
+# **************************************************************
+# 
+# A number  of  receptors  for  lymphokines,  hematopoietic  growth  factors and
+# growth hormone-related  molecules  have  been  found to share a common binding
+# domain. These  receptors  are  designated as hematopoietin receptors [1,2] and
+# the corresponding ligands as hematopoietins. Further, hematopoietins have been
+# subdivided into  two  major  structural  groups:  Large/long  and  small/short
+# hematopoietins.
+# 
+# Several receptor  chains  for  large  hematopoietins  are structurally related
+# such that  their  extracellular  parts  strictly  contain  the 200 amino-acids
+# hematopoietin domain,   duplicated  in  the  thrombopoietin  receptor  and  in
+# avian prolactin receptors. This subgroup of receptor chains contains:
+# 
+#  - Growth hormone receptor (GHR).
+#  - Prolactin receptor (PRLR).
+#  - Erythropoietin receptor (EPOR).
+#  - Thrombopoietin receptor (TPOR).
+# 
+# A schematic representation of the structure of these receptors is shown below:
+# 
+#  +----------------------------------------xxxxxxx-------------------------+
+#  | C C       C  C  Extracellular          XXXXXXX       Cytoplasmic       |
+#  +-|-|-------|--|-------------------------xxxxxxx-------------------------+
+#    | |       |  |                      Transmembrane
+#    +-+       +--+
+# 
+# These receptor  chains  are  single  components of receptors that homodimerize
+# upon binding   of   the  cognate  cytokine,  following  the  structural  model
+# described for the growth hormone-receptor complex [3].
+# 
+# We have  used  one  pattern to detect this family. The motif is located in the
+# carboxy-terminal part of the 200 amino acid hematopoietin domain.
+# 
+# -Consensus pattern: [LIV]-x-[LIV]-x-W-x(12,16)-Y-[EQ]-[LIV]-x(25,27)-L-x(10)-
+#                     [RKH]-x-[RKH]-x(5,9)-[FYW]-x(2)-[FYW]-x(5)-[LIV]
+# -Sequences known to belong to this class detected by the pattern: ALL
+# -Other sequence(s) detected in Swiss-Prot: NONE.
+# 
+# -Expert(s) to contact by email:
+#            Boulay J.-L.; Jean-Louis.Boulay@unibas.ch
+# 
+# -Last update: December 2001 / First entry.
+# 
+# [ 1] Boulay J.-L., Paul W.E.
+#      "Hematopoietin sub-family classification based on size, gene
+#      organization and sequence homology."
+#      Curr. Biol. 3:573-581(1993).
+#      PubMed=15335670
+# [ 2] Sprang S.R., Bazan J.F.
+#      Current Opin. Struct. Biol. 3:815-827(1993).
+# [ 3] de Vos A.M., Ultsch M., Kossiakoff A.A.
+#      "Human growth hormone and extracellular domain of its receptor:
+#      crystal structure of the complex."
+#      Science 255:306-312(1992).
+#      PubMed=1549776;
+# 
+# ***************
+# 
+#
+#---------------------------------------

@@ -1,0 +1,7 @@
+Descripción: 
+-Para el getorf
+-Para correr el patmatmotifs se requiere la secuencia.gb, prosite.dat y prosite.doc. Luego de su ejecución se genera el archivo con el resultado descripción de 
+un informe de la posición de inicio y final de cualquier coincidencia de entradas PROSITE con la secuencia de entrada.
+Opcionalmente (utilizando el calificador '-full'), también se informa la descripción completa de la entrada prosite.
+
+Comando de ejecución: $ perl Exercise5.pm {Exercise1.fasta} 
