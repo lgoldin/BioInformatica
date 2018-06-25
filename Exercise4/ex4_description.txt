@@ -1,9 +1,15 @@
+Descripción: Se parsea un reporte de salida de blast del ejercicio 2 e identifica los hits que en su descripción aparezca el patrón 
+que le damos como parámetro de entrada.
+
 Input: 
     -Archvio blast del ejercicio 2
     -Patron
 
-Output: Lista de los hits que coincidan con el pattern en consola u genera un archivo por cada accession que matchee
+Output: Lista de los hits que coincidan con el pattern en consola y genera un archivo por cada accession que matchee, es decir, levantar la secuencia original 
+de los hits seleccionados)
 
-Para ejecutarlo: $ perl Exercise4.pm Exercise2_blast_2.bls Cytosolic
+Para ejecutarlo: $ perl Exercise4.pm {Exercise2_blast_X.bls} {patronDeseado}
+
+p.e. $ perl Exercise4.pm Exercise2_blast_2.bls Cytosolic
 
 

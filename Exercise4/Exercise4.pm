@@ -27,8 +27,9 @@ while($result = $report_obj->next_result ){
 
 			if (index($hit->description, "$inputPatron") != -1){
                
+                print " \n Pattern: ", "$inputPatron";
                 print " \n Hit: ", $hit->name;
-				print "\n Descripcion: ", $hit->description;
+				print "\n Description: ", $hit->description;
                 print "\n Accession: ", $hit->accession ."\n";      
 
                 $outputName = $hit->accession;			

@@ -1,6 +1,7 @@
 Archivo input de secuencias en formato genbank: sequence.gb 
 Archivo output de ORF: Exercise1.fasta
 
+Descripción: Se lee la secuencia descargada del gen de la hormona d crecimiento (GHR) y se calculan sus seis marcos de lectura.
 
 Para ejecutarlo:
 1) $ perl Exercise1.pm

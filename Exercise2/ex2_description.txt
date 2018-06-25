@@ -1,5 +1,8 @@
+Descripción: se pasa como parámetro la base de swissprot con formato de BLAST DB y el archivo .fasta del ejercicio 1, se realiza un Blast por cada secuencia input y 
+se obtienen 6 archivos con los reportes del Blast
+
 Comandos para ejecutarlo:
 
-$ perl Exercise2.pm {path a la base .psq} {el archivo fasta del ex1}
+$ perl Exercise2.pm {path a la base .psq} {el archivo fasta del Exercise1}
 
-p.e.: sudo .Exercise2.pm /home/bioinformatica/Escritorio/swissprot/swissprot.psq Exercise1.fasta
+p.e.: perl Exercise2.pm /home/bioinformatica/Escritorio/swissprot/swissprot.psq Exercise1.fasta
